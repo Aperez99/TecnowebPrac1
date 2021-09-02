@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(221, 249, 255);
+}
+header{
+    position: relative;
+    text-align: center;
+    margin: 50px 20px;
+}
+section{
+    position: relative;
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+section p{
+    margin: 5px;
+}
+article{
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+}
+article p{
+    margin: 5px;
+}
+div{
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+}
+div p{
+    margin: 5px;
+}
+@media screen and (max-width:800px)
+{
+    section{
+        margin-left: 80px;
+        margin-top: 70px;
+    }
+    article{
+        margin-left: 80px;
+    }
+    div{
+        margin-left: 80px;
+    }
+}
